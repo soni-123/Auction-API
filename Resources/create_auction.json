@@ -1,0 +1,31 @@
+{	
+    "startNow": 0,
+    "idProduct": "6648892981405",
+    "endDate": "2021-06-30 07:39:26",
+    "bySeller": 0,
+    "startDate": "2021-06-12 06:39:38",
+    "startPrice": "10",
+    "reservePrice": "500",
+    "proxyBiddingOn": 1,
+    "bookingAmount": false,	
+    "buyNowPrice": false,
+    "joiningFeeEnable": 0,
+    "displayAuctionDays": 0,
+    "autoPayEnable": 1,
+    "extendDeadlineBy": "{\"type\":\"minutes\",\"value\":5}",
+    "extendDeadlineWithin": "{\"type\":\"minutes\",\"value\":10}",
+    "popcornBidding": 1,
+    "maxPopcornBid": 10, 
+    "bidRule": [
+        {
+            "bid_from": "0",
+            "bid_to": "100",
+            "rate": "10"
+        },
+        {
+            "bid_from": "100",
+            "bid_to": "200",
+            "rate": "20"
+        }
+    ]   
+}

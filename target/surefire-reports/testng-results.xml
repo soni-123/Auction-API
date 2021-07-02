@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16871" started-at="2021-07-02T13:17:34Z" finished-at="2021-07-02T13:17:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16871" started-at="2021-07-02T13:17:34Z" finished-at="2021-07-02T13:17:51Z">
+      <class name="Auction_API.CreateAuction">
+        <test-method status="PASS" signature="createAuction()[pri:0, instance:Auction_API.CreateAuction@58a90037]" name="createAuction" duration-ms="2078" started-at="2021-07-02T13:17:43Z" finished-at="2021-07-02T13:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAuction -->
+      </class> <!-- Auction_API.CreateAuction -->
+      <class name="Auction_API.CreateClient">
+        <test-method status="PASS" signature="createClient()[pri:0, instance:Auction_API.CreateClient@f4168b8]" name="createClient" duration-ms="1218" started-at="2021-07-02T13:17:41Z" finished-at="2021-07-02T13:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createClient -->
+      </class> <!-- Auction_API.CreateClient -->
+      <class name="Auction_API.GetAuction">
+        <test-method status="PASS" signature="getAuction()[pri:0, instance:Auction_API.GetAuction@130f889]" name="getAuction" duration-ms="1034" started-at="2021-07-02T13:17:47Z" finished-at="2021-07-02T13:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuction -->
+      </class> <!-- Auction_API.GetAuction -->
+      <class name="Auction_API.GetBidOnAuction">
+        <test-method status="PASS" signature="getBidOnAuction()[pri:0, instance:Auction_API.GetBidOnAuction@2f490758]" name="getBidOnAuction" duration-ms="1383" started-at="2021-07-02T13:17:50Z" finished-at="2021-07-02T13:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBidOnAuction -->
+      </class> <!-- Auction_API.GetBidOnAuction -->
+      <class name="Auction_API.UpdateRate">
+        <test-method status="PASS" signature="updateRate()[pri:0, instance:Auction_API.UpdateRate@530612ba]" name="updateRate" duration-ms="4960" started-at="2021-07-02T13:17:34Z" finished-at="2021-07-02T13:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRate -->
+      </class> <!-- Auction_API.UpdateRate -->
+      <class name="Auction_API.StopAuction">
+        <test-method status="PASS" signature="stopAuction()[pri:0, instance:Auction_API.StopAuction@70a9f84e]" name="stopAuction" duration-ms="730" started-at="2021-07-02T13:17:46Z" finished-at="2021-07-02T13:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAuction -->
+      </class> <!-- Auction_API.StopAuction -->
+      <class name="Auction_API.StartAuction">
+        <test-method status="PASS" signature="startAuction()[pri:0, instance:Auction_API.StartAuction@74294adb]" name="startAuction" duration-ms="856" started-at="2021-07-02T13:17:46Z" finished-at="2021-07-02T13:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAuction -->
+      </class> <!-- Auction_API.StartAuction -->
+      <class name="Auction_API.UserRegister">
+        <test-method status="PASS" signature="userRegister()[pri:0, instance:Auction_API.UserRegister@3bd94634]" name="userRegister" duration-ms="1505" started-at="2021-07-02T13:17:42Z" finished-at="2021-07-02T13:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegister -->
+      </class> <!-- Auction_API.UserRegister -->
+      <class name="Auction_API.GetAuctionById">
+        <test-method status="PASS" signature="getAuctionById()[pri:0, instance:Auction_API.GetAuctionById@1188e820]" name="getAuctionById" duration-ms="1680" started-at="2021-07-02T13:17:48Z" finished-at="2021-07-02T13:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuctionById -->
+      </class> <!-- Auction_API.GetAuctionById -->
+      <class name="Auction_API.RefreshToken">
+        <test-method status="PASS" signature="refreshToken()[pri:0, instance:Auction_API.RefreshToken@2a40cd94]" name="refreshToken" duration-ms="1373" started-at="2021-07-02T13:17:39Z" finished-at="2021-07-02T13:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshToken -->
+      </class> <!-- Auction_API.RefreshToken -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

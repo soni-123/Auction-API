@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Auction_API.UpdateRate" />
+			<class name="Auction_API.RefreshToken" />
+
+
+			<class name="Auction_API.CreateClient" />
+			<class name="Auction_API.UserRegister" />
+
+
+			<class name="Auction_API.CreateAuction" />
+			<class name="Auction_API.StartAuction" />
+			<class name="Auction_API.StopAuction" />
+			<class name="Auction_API.GetAuction" />
+			<class name="Auction_API.GetAuctionById" />
+
+			<class name="Auction_API.GetBidOnAuction" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

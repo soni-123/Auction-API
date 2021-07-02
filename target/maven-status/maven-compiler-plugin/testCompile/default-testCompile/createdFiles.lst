@@ -1,0 +1,10 @@
+Auction_API\CreateAuction.class
+Auction_API\RefreshToken.class
+Auction_API\StartAuction.class
+Auction_API\CreateClient.class
+Auction_API\GetAuctionById.class
+Auction_API\StopAuction.class
+Auction_API\GetBidOnAuction.class
+Auction_API\GetAuction.class
+Auction_API\UserRegister.class
+Auction_API\UpdateRate.class

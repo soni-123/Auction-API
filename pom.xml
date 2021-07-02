@@ -1,0 +1,107 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Webkul</groupId>
+  <artifactId>Auction_API</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Auction_API</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+   <!-- Plug ins required for executing test -->
+  <build>
+  	<plugins>
+  	  <plugin>
+  	   	<groupId>org.apache.maven.plugins</groupId>
+  	    <artifactId>maven-compiler-plugin</artifactId>
+  	    <configuration>
+  	  		 <source>1.6</source>
+  	   		 <target>1.6</target>
+  	   </configuration>
+  	  </plugin>
+  	  
+  	  <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <fork>true</fork>
+                <executable>C:\Program Files\Java\jdk1.8.0_181\bin\javac.exe</executable>
+            </configuration>
+        </plugin>
+  	  <plugin>
+  	   	<groupId>org.apache.maven.plugins</groupId>
+  	    <artifactId>maven-surefire-plugin</artifactId>
+  	    <version>2.18.1</version>
+  	    <configuration>
+  	  		 <suiteXmlFiles>
+  	  		 	<suiteXmlFile>testng.xml</suiteXmlFile> 
+  	  		 </suiteXmlFiles>
+  	   		
+  	   </configuration>
+  	  </plugin>
+  	</plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+   <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.3.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>4.3.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>xml-path</artifactId>
+			<version>3.0.7</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180130</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.github.scribejava</groupId>
+			<artifactId>scribejava-apis</artifactId>
+			<version>2.5.2</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>4.3.1</version>
+		</dependency>
+  </dependencies>
+</project>
